@@ -31,3 +31,16 @@ To run tests in headed mode add `--headed` argument to the run command:
 To run tests in Firefox add `--browser firefox` argument to the run command:
 
 `pytest --browser firefox`
+
+
+## Reporting
+
+To enable reporting install Allure Report CLI according to the documentation
+
+https://allurereport.org/docs/install/
+
+To generate report run the command:
+
+`allure serve allure-results`
+
+It generates the report and opens it in the browser.
